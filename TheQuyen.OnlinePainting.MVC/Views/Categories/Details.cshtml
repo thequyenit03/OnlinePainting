@@ -1,0 +1,35 @@
+﻿@model TheQuyen.OnlinePainting.Data.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_NewLayout";
+}
+
+<h1 class="text-center">Xem Chi Tiết</h1>
+
+<div class="card table-responsive">
+    <div class="card-body">
+        <h4 class="card-title">Danh Mục</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+        </dl>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="CategoryId" />
+            <input type="submit" value="Xóa" class="btn btn-danger" />
+            <a asp-action="Edit" asp-route-id="@Model?.CategoryId" class="btn btn-warning">Chỉnh sửa</a>
+            <a asp-action="Index" class="btn btn-secondary">Trở về</a>
+        </form>
+    </div>
+</div>

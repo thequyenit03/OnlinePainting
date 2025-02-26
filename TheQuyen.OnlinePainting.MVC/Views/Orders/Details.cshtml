@@ -1,0 +1,71 @@
+﻿@model TheQuyen.OnlinePainting.Data.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_NewLayout";
+}
+
+<h1 class="text-center">Xem Chi Tiết</h1>
+
+<div class="card table-responsive">
+    <div class="card-body">
+        <h4 class="card-title">Đặt Hàng</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Customer)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Customer.Address)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Painting)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Painting.Description)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.OrderDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TotalPrice)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PaymentMethod)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PaymentMethod)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.OrderStatus)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.OrderStatus)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ShippingAddress)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ShippingAddress)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.OrderNote)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.OrderNote)
+            </dd>
+        </dl>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="OrderId" />
+            <input type="submit" value="Xóa" class="btn btn-danger" />
+            <a asp-action="Edit" asp-route-id="@Model?.OrderId" class="btn btn-warning">Chỉnh sửa</a>
+            <a asp-action="Index" class="btn btn-secondary">Trở về</a>
+        </form>
+    </div>
+</div>

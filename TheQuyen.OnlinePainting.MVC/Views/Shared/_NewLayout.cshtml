@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>            
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TheQuyen.OnlinePainting.MVC</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css"  />
+    <link rel="stylesheet" href="~/css/StyleCreate.css" />
+    <link rel="stylesheet" href="~/css/StyleIndex.css" />
+    <link rel="stylesheet" href="~/css/StyleDelete.css" />
+    <link rel="stylesheet" href="~/css/StyleDetail.css" />
+    <link rel="stylesheet" href="~/css/StyleEdit.css" />
+    <link rel="stylesheet" href="~/TheQuyen.OnlinePainting.MVC.styles.css"  />
+    <link rel="stylesheet" href="~/css/rtl.css">    
+    <link rel="stylesheet" href="~/css/main.min.css " asp-append-version="true">
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true">
+
+</head>
+
+<body>
+    <div class="nav-main">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand font-weight-bold" asp-area="" asp-controller="Home" asp-action="Index">OnlinePainting</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Artists" asp-action="Index">Artists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Categories" asp-action="Index">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Comments" asp-action="Index">Comment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Customers" asp-action="Index">Customer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Orders" asp-action="Index">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" asp-area="" asp-controller="Paintings" asp-action="Index">Painting</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--end:Nav -->
+        </div>
+    </div>
+    <!--end:Navigation -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="position-relative">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-auto mt-4">
+                    <p class="mb-4">sharebootstrap.com</p>
+                </div>
+                <div class="col-lg-3 mt-4 ml-auto">
+                    <p>
+                        dayy GmbH
+                        <br> sarajevska. 32
+                        <br> 71000 sarajevo
+                        <br> fbih
+                    </p>
+                    <a href="mailto:hi@yourdomain.com"><span style="text-decoration: underline;">hi@sharebootstrap.com</span></a>
+                </div>
+                <div class="col-lg-3 mt-4 ml-auto">
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-auto ml-lg-auto mt-4">
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <!-- Please note.You are not allowed to remove credit link.Please respect that.-->
+                        <li><a href="https://sharebootstrap.com">dev by sharebootstrap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </footer>
+    <script src="~/js/main.min.js"></script>
+</body>
+@await RenderSectionAsync("Scripts", required: false)
+</html>

@@ -1,0 +1,65 @@
+﻿@model TheQuyen.OnlinePainting.Data.Models.Comment
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_NewLayout";
+}
+
+<h1 class="text-center">Xem Chi Tiết</h1>
+
+<div class="card table-responsive">
+    <div class="card-body">
+        <h4 class="card-title">Đánh Giá</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Content)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Content)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.CommentDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CommentDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Rating)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Rating)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.LikeCount)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.LikeCount)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Customer)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Customer.Address)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Painting)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Painting.Description)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ParentComment)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ParentComment.Content)
+            </dd>
+        </dl>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="CommentId" />
+            <input type="submit" value="Xóa" class="btn btn-danger" />
+            <a asp-action="Edit" asp-route-id="@Model?.CommentId" class="btn btn-warning">Chỉnh sửa</a>
+            <a asp-action="Index" class="btn btn-secondary">Trở về</a>
+        </form>
+    </div>
+</div>

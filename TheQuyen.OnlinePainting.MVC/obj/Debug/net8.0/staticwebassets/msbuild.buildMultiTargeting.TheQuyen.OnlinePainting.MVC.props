@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TheQuyen.OnlinePainting.MVC.props" />
+</Project>

@@ -1,0 +1,14 @@
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\bin\Debug\net8.0\TheQuyen.OnlinePainting.Data.deps.json
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\bin\Debug\net8.0\TheQuyen.OnlinePainting.Data.runtimeconfig.json
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\bin\Debug\net8.0\TheQuyen.OnlinePainting.Data.dll
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\bin\Debug\net8.0\TheQuyen.OnlinePainting.Data.pdb
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.csproj.AssemblyReference.cache
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.AssemblyInfoInputs.cache
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.AssemblyInfo.cs
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.csproj.CoreCompileInputs.cache
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.dll
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\refint\TheQuyen.OnlinePainting.Data.dll
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.pdb
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\TheQuyen.OnlinePainting.Data.genruntimeconfig.cache
+D:\CacKi\TTDN\HN25_CPL.V_NET_01\TheQuyen.OnlinePainting\TheQuyen.OnlinePainting.Data\obj\Debug\net8.0\ref\TheQuyen.OnlinePainting.Data.dll

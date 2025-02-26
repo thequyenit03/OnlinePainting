@@ -1,0 +1,28 @@
+﻿.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Đặt form cách thanh menu */
+    min-height: calc(100vh - 20px); /* Đảm bảo chiều cao tối thiểu là chiều cao màn hình trừ đi 20dp */
+    margin-top: 20px; /* Khoảng cách 20dp từ thanh menu */
+}
+
+.form-container {
+    max-width: 500px; /* Đặt chiều rộng tối đa cho form */
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Căn chỉnh đều khoảng cách giữa các nút */
+    align-items: center; /* Căn chỉnh giữa các nút theo chiều dọc */
+    margin-top: 20px; /* Khoảng cách phía trên nhóm nút */
+}
+.button-group a, input{
+    width:100px;
+    height: 40px;
+}
+

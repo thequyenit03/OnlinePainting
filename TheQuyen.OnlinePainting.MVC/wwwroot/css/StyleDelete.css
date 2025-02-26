@@ -1,0 +1,40 @@
+﻿/* styles.css */
+.table-responsive {
+    margin-top: 20px; /* Thêm khoảng cách trên */
+    background-color: rgba(255, 255, 255, 0.9); /* Nền màu trắng mờ */
+    border: 1px solid #dee2e6; /* Thêm viền cho bảng */
+    padding: 15px; /* Thêm khoảng cách bên trong bảng */
+}
+
+.table thead {
+    background-color: #6c757d; /* Thay đổi màu nền của đầu bảng */
+    color: white; /* Thay đổi màu chữ của đầu bảng */
+}
+
+.table td, .table th {
+    text-align: center; /* Căn giữa nội dung trong các ô */
+    vertical-align: middle; /* Căn giữa dọc nội dung trong các ô */
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2; /* Thay đổi màu nền khi hover */
+}
+
+.card {
+    margin-top: 20px; /* Thêm khoảng cách trên */
+    border: 1px solid #dee2e6; /* Thêm viền cho card */
+    background-color: rgba(255, 255, 255, 0.9); /* Nền màu trắng mờ */
+    padding: 15px; /* Thêm khoảng cách bên trong card */
+}
+
+.card-title {
+    font-size: 1.5em; /* Tăng kích thước chữ của tiêu đề card */
+}
+
+dl.row {
+    margin-bottom: 20px; /* Thêm khoảng cách dưới */
+}
+
+.btn {
+    margin: 5px 0; /* Thêm khoảng cách giữa các nút */
+}
